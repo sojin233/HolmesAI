@@ -628,7 +628,7 @@ html {
   --font-size-h1: 80px;
   --font-size-h2: 60px;
   --font-size-h3: 48px;
-  --font-size-h4: 40px;
+  --font-size-h4: 38px;
   --font-size-lg: 36px;
   --font-size-md: 24px;
   --font-size-sl: 18px;
@@ -638,7 +638,7 @@ html {
   --font-height-h1: 90px;
   --font-height-h2: 70px;
   --font-height-h3: 60px;
-  --font-height-h4: 50px;
+  --font-height-h4: 48px;
   --font-height-lg: 48px;
   --font-height-md: 36px;
   --font-height-sl: 24px;
@@ -648,42 +648,21 @@ html {
 
 /* ======================= button ======================= */
 /* btn-01 */
+.btn-wrap {
+  text-align: center;
+  margin-top: 60px;
+}
+
 .btn-01 {
   position: relative;
   display: inline-block;
-  height: 24px;
-}
-.btn-01 .icon-more {
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  color: #fff;
+  padding: 10px 30px;
   border-radius: 99px;
-  background-color: red;
-  overflow: hidden;
-  transition: width 0.5s cubic-bezier(0.5, 1, 0.5, 1);
+  background-color: #106ab7;
 }
-.btn-01 .icon-more em {
-  position: absolute;
-  top: 0;
-  left: 30px;
-  color: var(--color-gray-7);
-  font-size: var(--font-size-sl);
-  line-height: var(--font-size-md);
-}
-.btn-01 .txt {
-  display: flex;
-  align-items: center;
-  height: 24px;
-  padding-right: 8px;
-  margin-left: 30px;
-  font-size: var(--font-size-sl);
-  transition: all 1s 0.3s;
-}
-.btn-01:hover .icon-more {
-  width: 100%;
-  transition: width 0.5s cubic-bezier(0.5, 0, 0.1, 1);
+.btn-01:hover {
+  background-color: #6ca4d4;
 }
 
 /* ======================= ico ======================= */

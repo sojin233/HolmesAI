@@ -39,6 +39,10 @@ body {
   background-color: #fff;
 }
 
+.content_box {
+  width: 100%;
+}
+
 /* ======================= main ======================= */
 main {
   width: 100vw;
@@ -312,6 +316,9 @@ section .wrap {
 .section04 .grid_box {
   margin-top: 50px;
 }
+.section04 .grid_box img {
+  width: 100%;
+}
 
 /*  section05 */
 .section05 {
@@ -327,7 +334,7 @@ section .wrap {
 .section05 .img_box {
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 40px;
   padding: 0 40px;
 }
 .section05 .img_box img {
@@ -352,10 +359,44 @@ section .wrap {
   position: relative;
 }
 
-/*  section07 */
-.section07 {
-}
-.section07 .content_box {
-  border: 1px solid red;
+/* section 10 */
+.section10 .new_wrap {
   width: 100%;
+  margin-top: 50px;
+}
+.section10 .new_wrap ul {
+  display: flex;
+}
+.section10 .new_wrap ul li {
+  width: 33.33%;
+}
+.section10 .new_wrap ul li:nth-child(n + 2) {
+  margin-left: 50px;
+}
+.section10 .new_wrap ul li a {
+  color: #fff;
+}
+.section10 .new_wrap ul li a .img img {
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #d1d5db;
+}
+.section10 .new_wrap ul li a .text {
+  margin-top: 20px;
+}
+.section10 .new_wrap ul li a .text p {
+  font-size: var(--font-size-md);
+  line-height: var(--font-height-md);
+}
+.section10 .new_wrap ul li a .text span {
+  display: inline-block;
+  font-size: var(--font-size-sl);
+  line-height: var(--font-height-sl);
+  margin-top: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }

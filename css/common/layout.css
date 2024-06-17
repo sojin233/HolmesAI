@@ -26,6 +26,10 @@ header .wrap {
 .logo-box a {
   display: inline-block;
 }
+.logo-box a img {
+  width: 120px;
+  padding: 10px 0;
+}
 
 /*======================= nav ======================= */
 nav {

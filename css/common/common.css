@@ -705,6 +705,19 @@ html {
   background-image: url(../../img/common/icon/icon_planner.png);
 }
 
+.icon_medical_g {
+  background-image: url(../../img/common/icon/icon_medical_g.png);
+}
+.icon_partner_g {
+  background-image: url(../../img/common/icon/icon_partner_g.png);
+}
+.icon_planner_g {
+  background-image: url(../../img/common/icon/icon_planner_g.png);
+}
+.icon_prescriptions_g {
+  background-image: url(../../img/common/icon/icon_prescriptions_g.png);
+}
+
 /* ======================= scroll-box ======================= */
 .scroll-box {
   text-align: center;

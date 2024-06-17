@@ -10,7 +10,6 @@ header {
   transition: all 200ms linear;
 }
 header .wrap {
-  border: 1px solid red;
   width: 100%;
   max-width: 1350px;
   margin: 0 auto;
@@ -77,12 +76,15 @@ footer .wrap {
 
 /*======================= tit_type ======================= */
 .tit_type_01 {
-  border: 1px solid deeppink;
   text-align: center;
 }
 .tit_type_01 h3 {
   font-size: var(--font-size-h3);
   line-height: var(--font-height-h3);
+}
+.tit_type_01 h4 {
+  font-size: var(--font-size-h4);
+  line-height: var(--font-height-h4);
 }
 .tit_type_01 p {
   font-size: var(--font-size-sl);

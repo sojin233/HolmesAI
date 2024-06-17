@@ -628,6 +628,7 @@ html {
   --font-size-h1: 80px;
   --font-size-h2: 60px;
   --font-size-h3: 48px;
+  --font-size-h4: 40px;
   --font-size-lg: 36px;
   --font-size-md: 24px;
   --font-size-sl: 18px;
@@ -637,6 +638,7 @@ html {
   --font-height-h1: 90px;
   --font-height-h2: 70px;
   --font-height-h3: 60px;
+  --font-height-h4: 50px;
   --font-height-lg: 48px;
   --font-height-md: 36px;
   --font-height-sl: 24px;
@@ -715,6 +717,13 @@ html {
 .ico-arrow-right-24-w {
   background-position: -68px -23px;
   background-size: 92px;
+}
+
+.icon_cardiology {
+  background-image: url(../../img/common/icon/icon_cardiology.png);
+}
+.icon_planner {
+  background-image: url(../../img/common/icon/icon_planner.png);
 }
 
 /* ======================= scroll-box ======================= */

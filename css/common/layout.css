@@ -59,19 +59,52 @@ nav > ul > li > a:hover {
 }
 
 /*======================= footer ======================= */
-.fp-auto-height.fp-section,
-.fp-auto-height .fp-slide,
-.fp-auto-height .fp-tableCell {
-  padding-top: 0 !important;
-}
 footer {
   background-color: var(--color-light);
-  padding: 4% 0;
+  padding: 5% 0 !important;
+  display: flex;
+  color: var(--color-primary);
 }
 footer .wrap {
+  width: 100%;
+}
+footer .wrap .content_box {
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
+}
+footer .wrap .content_box:nth-child(n + 2) {
+  margin-top: 80px;
+}
+footer .wrap .logo_box img {
+  width: 200px;
+}
+footer .wrap .ft_info ul {
+  display: flex;
+}
+footer .wrap .ft_info ul li:nth-child(n + 2) {
+  margin-left: 50px;
+}
+footer .wrap .ft_info ul li a {
+  display: inline-block;
+  font-size: var(--font-size-sl);
+  line-height: var(--font-height-sl);
+  color: var(--color-primary);
+}
+footer .wrap .ft_info ul li a:hover {
+  color: var(--color-point);
+}
+
+footer .wrap .ft_info .text {
+  margin-top: 50px;
+}
+footer .wrap .ft_info .text p {
+  font-size: var(--font-size-sl);
+  line-height: var(--font-height-sl);
+  color: var(--color-primary);
+}
+footer .wrap .sub_link span {
+  display: inline-block;
+  padding: 0px 20px;
 }
 
 /*======================= tit_type ======================= */

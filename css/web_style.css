@@ -339,3 +339,23 @@ section .wrap {
   margin-left: 50px;
   text-align: center;
 }
+
+/*  section06 */
+.section06 {
+  border: 1px solid peru;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/main/img_09.jpg);
+  background-repeat: no-repeat;
+  vertical-align: top;
+  object-fit: cover;
+  background-size: cover;
+  position: relative;
+}
+
+/*  section07 */
+.section07 {
+}
+.section07 .content_box {
+  border: 1px solid red;
+  width: 100%;
+}

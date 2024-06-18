@@ -626,7 +626,7 @@ html {
   --font-family: "Ubuntu";
 
   --font-size-h1: 60px;
-  --font-size-h2: 36px;
+  --font-size-h2: 30px;
 
   --font-size-lg: 24px;
   --font-size-md: 18px;
@@ -634,7 +634,7 @@ html {
   --font-size-sm: 12px;
 
   --font-height-h1: 60px;
-  --font-height-h2: 48px;
+  --font-height-h2: 40px;
   --font-height-lg: 36px;
   --font-height-md: 24px;
   --font-height-sl: 20px;

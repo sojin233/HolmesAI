@@ -304,6 +304,25 @@ main.subpage ~ section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../img/main/img_17.jpg);
 }
+#contact .map_list ul {
+  display: flex;
+}
+#contact .map_list ul li:last-child {
+  margin-left: 40px;
+}
+#contact .map_list ul li p {
+  margin-top: 30px;
+  font-size: var(--font-size-h2);
+  line-height: var(--font-height-h2);
+  text-align: center;
+  font-weight: 700;
+}
+#contact .map_list ul li iframe {
+  border-radius: 30px;
+}
+#contact .table_type_01 {
+  margin-top: 10%;
+}
 
 /* news */
 #news main {

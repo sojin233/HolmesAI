@@ -287,10 +287,13 @@ main.subpage ~ section {
   margin-top: 5%;
 }
 
-/* COMPANY */
+/* company */
 #company main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../img/main/img_15.jpg);
+}
+#company section {
+  padding-top: 0;
 }
 
 /* platform */
@@ -298,8 +301,11 @@ main.subpage ~ section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../img/main/img_04.jpg);
 }
+#platform section {
+  padding-top: 0;
+}
 
-/* platform */
+/* contact */
 #contact main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../img/main/img_17.jpg);
@@ -329,7 +335,6 @@ main.subpage ~ section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../img/main/img_16.jpg);
 }
-
 #news .new_list {
   display: inline-block;
   margin-top: 5%;
@@ -362,7 +367,6 @@ main.subpage ~ section {
   font-size: var(--font-size-md);
   line-height: var(--font-height-md);
 }
-
 #news .new_list ul li .text_box > span {
   display: inline-block;
   margin-top: 10px;

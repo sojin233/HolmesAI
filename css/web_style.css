@@ -31,7 +31,6 @@ body {
 .wrap {
   max-width: 1200px;
   margin: 0 auto;
-  /* border: 1px solid palegoldenrod; */
 }
 
 #fp-nav ul li a span,
@@ -268,7 +267,6 @@ section .wrap {
 
 /* section 03 */
 .section03 {
-  border: 1px solid peru;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../img/main/img_02.jpg);
   background-repeat: no-repeat;
@@ -336,7 +334,6 @@ section .wrap {
 .grid_type_01 {
   width: 80%;
   height: 260px;
-  border: 1px solid paleturquoise;
   background-color: var(--color-light);
   color: var(--color-primary);
   border-radius: 20px;
@@ -471,13 +468,11 @@ section .wrap {
   font-weight: 500;
 }
 .grid_type_03 .box:nth-child(n + 2) {
-  border: 1px solid palegoldenrod;
   margin-top: 30px;
 }
 
 /*  section05 */
 .section05 {
-  border: 1px solid peru;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../img/main/img_08.jpg);
   background-repeat: no-repeat;
@@ -504,7 +499,6 @@ section .wrap {
 
 /*  section06 */
 .section06 {
-  border: 1px solid peru;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../img/main/img_09.jpg);
   background-repeat: no-repeat;

@@ -267,6 +267,7 @@ main.subpage ~ section {
   padding-bottom: 200px;
 }
 
+/* human */
 #human main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../img/main/img_09.jpg);
@@ -284,4 +285,28 @@ main.subpage ~ section {
 }
 #science .data_list {
   margin-top: 5%;
+}
+
+/* COMPANY */
+#company main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/main/img_15.jpg);
+}
+
+/* platform */
+#platform main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/main/img_04.jpg);
+}
+
+/* platform */
+#contact main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/main/img_17.jpg);
+}
+
+/* news */
+#news main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/main/img_16.jpg);
 }

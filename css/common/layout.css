@@ -11,7 +11,7 @@ header {
 }
 header .wrap {
   width: 100%;
-  max-width: 1350px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -59,13 +59,13 @@ nav > ul > li > a {
 }
 nav > ul > li > a:hover {
   color: var(--color-point);
-  font-weight: 700;
+  font-weight: 500;
 }
 
 /*======================= footer ======================= */
 footer {
   background-color: var(--color-light);
-  padding: 5% 0 !important;
+  padding: 3% 0 !important;
   display: flex;
   color: var(--color-primary);
 }
@@ -115,13 +115,9 @@ footer .wrap .sub_link span {
 .tit_type_01 {
   text-align: center;
 }
-.tit_type_01 h3 {
-  font-size: var(--font-size-h3);
-  line-height: var(--font-height-h3);
-}
-.tit_type_01 h4 {
-  font-size: var(--font-size-h4);
-  line-height: var(--font-height-h4);
+.tit_type_01 h2 {
+  font-size: var(--font-size-h2);
+  line-height: var(--font-height-h2);
 }
 .tit_type_01 p {
   font-size: var(--font-size-sl);
@@ -132,7 +128,7 @@ footer .wrap .sub_link span {
 .data_list {
   display: flex;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 10%;
 }
 .data_list li {
   width: 25%;

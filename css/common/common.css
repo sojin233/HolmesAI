@@ -625,25 +625,20 @@ html {
 
   --font-family: "Ubuntu";
 
-  --font-size-h1: 80px;
-  --font-size-h2: 60px;
-  --font-size-h3: 48px;
-  --font-size-h4: 38px;
-  --font-size-lg: 36px;
-  --font-size-md: 24px;
-  --font-size-sl: 18px;
-  --font-size-sm: 14px;
-  --font-size-xs: 12px;
+  --font-size-h1: 60px;
+  --font-size-h2: 36px;
 
-  --font-height-h1: 90px;
-  --font-height-h2: 70px;
-  --font-height-h3: 60px;
-  --font-height-h4: 48px;
-  --font-height-lg: 48px;
-  --font-height-md: 36px;
-  --font-height-sl: 24px;
-  --font-heightize-sm: 20px;
-  --font-height-xs: 18px;
+  --font-size-lg: 24px;
+  --font-size-md: 18px;
+  --font-size-sl: 14px;
+  --font-size-sm: 12px;
+
+  --font-height-h1: 60px;
+  --font-height-h2: 48px;
+  --font-height-lg: 36px;
+  --font-height-md: 24px;
+  --font-height-sl: 20px;
+  --font-heightize-sm: 18px;
 }
 
 /* ======================= button ======================= */

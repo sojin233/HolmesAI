@@ -121,8 +121,8 @@ footer .wrap .sub_link span {
   line-height: var(--font-height-h2);
 }
 .tit_type_01 p {
-  font-size: var(--font-size-sl);
-  line-height: var(--font-height-sl);
+  font-size: var(--font-size-md);
+  line-height: var(--font-height-md);
   margin-top: 30px;
 }
 

@@ -329,3 +329,46 @@ main.subpage ~ section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../img/main/img_16.jpg);
 }
+
+#news .new_list {
+  display: inline-block;
+  margin-top: 5%;
+}
+#news .new_list ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px 30px;
+}
+#news .new_list ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#news .new_list ul li .img_box {
+  border: 1px solid double;
+  width: 200px;
+  height: 200px;
+}
+#news .new_list ul li .img_box img {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+#news .new_list ul li .text_box {
+  width: calc(100% - 250px);
+}
+#news .new_list ul li .text_box p {
+  font-size: var(--font-size-md);
+  line-height: var(--font-height-md);
+}
+
+#news .new_list ul li .text_box > span {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: var(--font-size-sl);
+  line-height: var(--font-height-sl);
+}
+#news .new_list ul li .text_box > .btn-01 {
+  margin-top: 20px;
+}

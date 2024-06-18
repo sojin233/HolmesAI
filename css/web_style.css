@@ -246,8 +246,6 @@ body {
 main.subpage {
   width: 100%;
   height: 600px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../img/main/img_09.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -265,7 +263,25 @@ main.subpage h1 {
 }
 
 main.subpage ~ section {
-  border: 1px solid red;
   padding-top: 120px;
   padding-bottom: 200px;
+}
+
+#human main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/main/img_09.jpg);
+}
+
+/* science */
+#science main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/main/img_13.jpg);
+}
+#science .tit_type_01:nth-child(4),
+#science .tit_type_01:nth-child(6) {
+  margin-top: 10%;
+  margin-bottom: 4%;
+}
+#science .data_list {
+  margin-top: 5%;
 }

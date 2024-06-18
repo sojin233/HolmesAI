@@ -27,12 +27,13 @@ header .wrap {
   display: inline-block;
 }
 .logo-box a img {
-  width: 120px;
+  width: 100px;
   padding: 10px 0;
 }
 
 /*======================= nav ======================= */
 nav {
+  display: inline-block;
 }
 nav > ul {
   display: flex;
@@ -147,6 +148,11 @@ footer .wrap .sub_link span {
 }
 .img_type_01 .txt_box {
   width: 40%;
+  text-align: center;
+}
+.img_type_01 .txt_box h3 {
+  font-size: var(--font-size-lg);
+  line-height: var(--font-height-lg);
 }
 .img_type_01 .txt_box p {
   font-size: var(--font-size-sl);
@@ -156,6 +162,69 @@ footer .wrap .sub_link span {
   margin-top: 30px;
 }
 
+.list_type_01 {
+  display: inline-block;
+  margin-top: 10%;
+}
+.list_type_01 > ul {
+  display: flex;
+  align-items: center;
+}
+.list_type_01 > ul > li {
+  border: 1px solid #fff;
+  text-align: center;
+  width: 270px;
+  height: 270px;
+  position: relative;
+  border-radius: 999px;
+  padding: 80px 0;
+}
+.list_type_01 > ul > li:nth-child(n + 2) {
+  margin-left: 30px;
+}
+.list_type_01 > ul > li p {
+  font-size: var(--font-size-lg);
+  line-height: var(--font-height-lg);
+  font-weight: 700;
+}
+.list_type_01 > ul > li span {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: var(--font-size-sl);
+  line-height: var(--font-height-sl);
+}
+
+/* ======================= table_type ======================= */
+.table_type_01 {
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+.table_type_01 table {
+  width: 100%;
+}
+.table_type_01 table tbody tr {
+  padding: 10px 20px;
+}
+.table_type_01 table tbody tr th {
+  width: 20%;
+  padding: 18px 20px;
+  font-size: var(--font-size-sl);
+  line-height: var(--font-height-sl);
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+.table_type_01 table tbody tr td {
+  padding: 18px 20px;
+  font-size: var(--font-size-sl);
+  line-height: var(--font-height-sl);
+  border-bottom: 1px solid #fff;
+}
+.table_type_01 table tbody tr:last-child th {
+  border-bottom: 0;
+}
+.table_type_01 table tbody tr:last-child td {
+  border-bottom: 0;
+}
 /*======================= data list ======================= */
 .data_list {
   display: flex;

@@ -20,12 +20,32 @@
   body {
     border: 3px solid orange;
   }
+  nav > ul {
+    display: none;
+  }
+  footer {
+    padding: 50px 0 !important;
+  }
+  footer .wrap .content_box {
+    display: inline-block;
+  }
+  footer .wrap .content_box .ft_info {
+    margin-top: 30px;
+  }
+  footer .wrap .ft_info .text {
+    margin-top: 30px;
+  }
+  footer .wrap .content_box:nth-child(n + 2) {
+    margin-top: 30px;
+  }
+  footer .wrap .content_box:nth-child(n + 2) .text {
+    margin-top: 10px;
+  }
+
+  /* main */
   #main section {
     height: auto !important;
     padding: 100px 0 !important;
-  }
-  nav > ul {
-    display: none;
   }
   #main .section03 .wrap .imgbox_wrap li .img img,
   #main .section03 .wrap .imgbox_wrap li {
@@ -38,6 +58,35 @@
     display: inline-block;
     width: 100%;
   }
+  #main .section05 .img_box {
+    display: inline-block;
+  }
+  /* news page */
+  #news .new_list ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* conatct page */
+  #contact .map_list ul {
+    display: inline-block;
+    width: 100%;
+  }
+  #contact .map_list ul li iframe {
+    width: 100%;
+    height: 400px;
+  }
+  #contact .map_list ul li:last-child {
+    margin-left: 0;
+    margin-top: 80px;
+  }
+
+  /* common */
+  .img_type_01 .txt_box h3 {
+    text-align: center;
+  }
+  .table_type_01 table {
+    width: 100%;
+  }
+
   .grid_type_01 {
     width: 100%;
     height: auto;
@@ -57,6 +106,21 @@
   }
   .grid_type_03 .box::after {
     display: none;
+  }
+
+  .img_type_01 {
+    display: inline-block;
+  }
+  .img_type_01 .img_box {
+    width: 100%;
+  }
+  .img_type_01 .img_box img {
+    height: 350px;
+  }
+  .img_type_01 .txt_box {
+    width: 100%;
+    margin-top: 30px;
+    text-align: left !important;
   }
 
   .btn-menu {
@@ -84,8 +148,7 @@
     border: 3px solid yellow;
   }
 
-  /* common */
-  :root {
+  /* :root {
     --font-size-h0: 6rem;
     --font-size-h1: 4rem;
     --font-size-h3: 3.8rem;
@@ -96,7 +159,7 @@
     --font-size-md: 2rem;
     --font-size-lg: 2.4rem;
     --font-size-xl: 3.6rem;
-  }
+  } */
 }
 
 /* 모바일 360 이하 */

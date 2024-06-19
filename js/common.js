@@ -12,4 +12,22 @@ $(document).ready(function () {
     $(".list_content_box .list02").addClass("show");
     $(".list_content_box .list01").removeClass("show");
   });
+
+  // nav function
+  $(".btn-menu").click(function () {
+    if ($(".btn-menu > .ico-nav").hasClass("open")) {
+      $(".btn-menu > .ico-nav").removeClass("open");
+      $(".nav-mobile").fadeOut();
+      $("html").attr("style", "overflow: auto !important");
+    } else {
+      $(".btn-menu > .ico-nav").addClass("open");
+      $(".nav-mobile").fadeIn();
+      $(".nav-mobile .content-box > ul > li").removeClass("open");
+      $("html").attr("style", "overflow: hidden !important");
+    }
+  });
+  $(".nav-mobile .content-box > ul > li").click(function () {
+    $(this).toggleClass("open");
+    $(this).siblings().removeClass("open");
+  });
 });

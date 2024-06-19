@@ -58,9 +58,13 @@ nav > ul > li > a {
   padding: 7px 0;
   color: var(--color-primary);
 }
+nav > ul > li > a.active {
+  color: var(--color-point);
+  font-weight: 700;
+}
 nav > ul > li > a:hover {
   color: var(--color-point);
-  font-weight: 500;
+  font-weight: 700;
 }
 
 /*======================= footer ======================= */
@@ -149,7 +153,6 @@ footer .wrap .sub_link span {
 }
 .img_type_01 .txt_box {
   width: 40%;
-  text-align: center;
 }
 .img_type_01 .txt_box h3 {
   font-size: var(--font-size-lg);
@@ -232,18 +235,20 @@ footer .wrap .sub_link span {
 
 /* ======================= table_type ======================= */
 .table_type_01 {
-  border: 1px solid #fff;
-  border-radius: 20px;
+  display: flex;
+  justify-content: center;
 }
 .table_type_01 table {
-  width: 100%;
+  width: 70%;
+  border: 1px solid #fff;
+  border-radius: 20px;
 }
 .table_type_01 table tbody tr {
   padding: 10px 20px;
 }
 .table_type_01 table tbody tr th {
-  width: 20%;
-  padding: 18px 20px;
+  width: 25%;
+  padding: 5px 20px;
   font-size: var(--font-size-sl);
   line-height: var(--font-height-sl);
   border-bottom: 1px solid #fff;

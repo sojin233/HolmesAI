@@ -122,6 +122,9 @@
     margin-top: 30px;
     text-align: left !important;
   }
+  .img_type_01 div:first-child {
+    margin-right: 0;
+  }
 
   .btn-menu {
     display: block;
@@ -147,22 +150,43 @@
   body {
     border: 3px solid yellow;
   }
+  :root {
+    --font-size-h1: 30px;
+    --font-size-h2: 24px;
 
-  /* :root {
-    --font-size-h0: 6rem;
-    --font-size-h1: 4rem;
-    --font-size-h3: 3.8rem;
+    --font-size-lg: 20px;
+    --font-size-md: 18px;
+    --font-size-sl: 16px;
+    --font-size-sm: 10px;
 
-    --font-size-xs: 1.2rem;
-    --font-size-sm: 1.4rem;
-    --font-size-sl: 1.6rem;
-    --font-size-md: 2rem;
-    --font-size-lg: 2.4rem;
-    --font-size-xl: 3.6rem;
-  } */
+    --font-height-h1: 40px;
+    --font-height-h2: 30px;
+
+    --font-height-lg: 28px;
+    --font-height-md: 24px;
+    --font-height-sl: 22px;
+    --font-heightize-sm: 16px;
+  }
+  /* common */
+  footer .wrap .ft_info ul {
+    display: none;
+  }
+  main.subpage ~ section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .img_type_01 {
+    margin-top: 100px;
+  }
+  .img_type_01 .img_box img {
+    height: 200px;
+  }
 }
 
 /* 모바일 360 이하 */
 /* 모바일 세로*/
 @media screen and (max-width: 360px) {
+  body {
+    border: 3px solid greenyellow;
+  }
 }

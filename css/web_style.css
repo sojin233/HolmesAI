@@ -7,7 +7,7 @@ body {
   -ms-user-select: none;
   user-select: none;
   overflow-x: hidden;
-  word-break: keep-all;
+  /* word-break: keep-all; */
   background: var(--color-primary);
   color: var(--color-light);
 }

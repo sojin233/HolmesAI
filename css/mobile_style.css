@@ -40,7 +40,7 @@
     margin-top: 30px;
   }
   footer .wrap .content_box:nth-child(n + 2) .text {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   /* main */
@@ -169,6 +169,12 @@
     --font-heightize-sm: 16px;
   }
   /* common */
+  .logo-box a img {
+    width: 80px;
+  }
+  footer .wrap .logo_box img {
+    width: 100px;
+  }
   footer .wrap .ft_info ul {
     display: none;
   }
@@ -189,5 +195,30 @@
 @media screen and (max-width: 360px) {
   body {
     border: 3px solid greenyellow;
+  }
+
+  :root {
+    --font-size-h1: 24px;
+    --font-size-h2: 20px;
+
+    --font-size-lg: 18px;
+    --font-size-md: 16px;
+    --font-size-sl: 14px;
+    --font-size-sm: 10px;
+
+    --font-height-h1: 30px;
+    --font-height-h2: 28px;
+
+    --font-height-lg: 24px;
+    --font-height-md: 22px;
+    --font-height-sl: 16px;
+    --font-heightize-sm: 12px;
+  }
+  main.subpage ~ section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .img_type_01 {
+    margin-top: 50px;
   }
 }

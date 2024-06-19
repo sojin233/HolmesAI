@@ -1,13 +1,89 @@
 /* -- Desktop -- */
 @media (max-width: 1200px) {
+  body {
+    border: 3px solid red;
+  }
+  .wrap {
+    padding: 0 30px;
+  }
+  #main main .wrap .main-tit {
+    left: 30px;
+  }
+  .grid_type_03 .box p {
+    font-size: var(--font-size-sl);
+    line-height: var(--font-height-sl);
+  }
 }
 
 /* -- Tablet -- */
 @media screen and (max-width: 1100px) {
+  body {
+    border: 3px solid orange;
+  }
+  #main section {
+    height: auto !important;
+    padding: 100px 0 !important;
+  }
+  nav > ul {
+    display: none;
+  }
+  #main .section03 .wrap .imgbox_wrap li .img img,
+  #main .section03 .wrap .imgbox_wrap li {
+    height: 200px;
+  }
+  #main .section03 .wrap .imgbox_wrap li:nth-child(2n) .sub_text {
+    padding: 10px 40px;
+  }
+  #main .section04 .wrap .grid_table_01 {
+    display: inline-block;
+    width: 100%;
+  }
+  .grid_type_01 {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .grid_type_02 {
+    width: 100%;
+  }
+  .grid_type_01::after {
+    display: none;
+  }
+  .grid_type_02::after {
+    display: none;
+  }
+  .grid_type_03::after {
+    display: none;
+  }
+  .grid_type_03 .box::after {
+    display: none;
+  }
+
+  .btn-menu {
+    display: block;
+  }
+  .infinite_content .infinite_wrap {
+    margin: 10% 0 0 0;
+  }
+  .infinite_content .icon_wrap > div {
+    width: 13%;
+  }
+  .infinite_content .icon_wrap .data,
+  .infinite_content .icon_wrap .care {
+    left: 18%;
+  }
+  .infinite_content .icon_wrap .treatment,
+  .infinite_content .icon_wrap .diagnosis {
+    right: 16%;
+  }
 }
 
 /* 모바일 가로 & 테블릿 세로 */
 @media screen and (max-width: 768px) {
+  body {
+    border: 3px solid yellow;
+  }
+
   /* common */
   :root {
     --font-size-h0: 6rem;

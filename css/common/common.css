@@ -753,3 +753,53 @@ html {
     top: 40px;
   }
 }
+
+.btn-menu {
+  display: none;
+}
+.ico-nav {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.ico-nav i {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #fff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+.ico-nav i:nth-child(1) {
+  top: 0px;
+}
+.ico-nav i:nth-child(2),
+.ico-nav i:nth-child(3) {
+  top: 14px;
+}
+.ico-nav i:nth-child(4) {
+  top: 28px;
+}
+.ico-nav.open i:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+.ico-nav.open i:nth-child(2) {
+  transform: rotate(45deg);
+}
+.ico-nav.open i:nth-child(3) {
+  transform: rotate(-45deg);
+}
+.ico-nav.open i:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}

@@ -133,7 +133,8 @@ body {
 }
 #main .section03 .wrap .imgbox_wrap li .img img {
   width: 100%;
-  transform: translateY(-100px) scale(1);
+  height: 170px;
+  object-fit: cover;
 }
 #main .section03 .wrap .imgbox_wrap li .sub_text {
   padding: 50px;

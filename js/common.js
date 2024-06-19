@@ -19,11 +19,13 @@ $(document).ready(function () {
       $(".btn-menu > .ico-nav").removeClass("open");
       $(".nav-mobile").fadeOut();
       $("html").attr("style", "overflow: auto !important");
+      $(".logo-box a img").attr("src", "../img/common/logo_01_w.png");
     } else {
       $(".btn-menu > .ico-nav").addClass("open");
       $(".nav-mobile").fadeIn();
       $(".nav-mobile .content-box > ul > li").removeClass("open");
       $("html").attr("style", "overflow: hidden !important");
+      $(".logo-box a img").attr("src", "../img/common/logo_01.png");
     }
   });
   $(".nav-mobile .content-box > ul > li").click(function () {

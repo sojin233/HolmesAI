@@ -165,6 +165,9 @@
   body {
     border: 3px solid yellow;
   }
+  .wrap {
+    padding: 0 20px;
+  }
   :root {
     --font-size-h1: 30px;
     --font-size-h2: 24px;
@@ -196,11 +199,49 @@
     padding-top: 100px;
     padding-bottom: 100px;
   }
+  #main .section05 .img_box {
+    padding: 0;
+  }
+  #main .section05 .img_box img {
+    width: 100%;
+  }
+  .infinite_content .infinite_wrap .infinite_box {
+    width: 50%;
+  }
+  .infinite_content .icon_wrap div .icon_box i {
+    width: 100%;
+    height: 100%;
+    background-size: 30px;
+    background-position: 6px 13px;
+  }
+  .infinite_content .icon_wrap .data,
+  .infinite_content .icon_wrap .treatment {
+    top: -5px;
+  }
+  .infinite_content .icon_wrap > div {
+    height: 26%;
+  }
   .img_type_01 {
     margin-top: 100px;
   }
   .img_type_01 .img_box img {
     height: 200px;
+  }
+  .data_list {
+    display: inline-block;
+  }
+  .data_list li {
+    width: 100%;
+  }
+  .data_list li .tit {
+    text-align: center;
+  }
+  .data_list li .img {
+    margin-top: 10px;
+  }
+  .data_list li:nth-child(n + 2) {
+    margin-left: 0px;
+    margin-top: 20px;
   }
 }
 

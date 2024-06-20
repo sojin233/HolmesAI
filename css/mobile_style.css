@@ -42,8 +42,14 @@
   footer .wrap .content_box:nth-child(n + 2) .text {
     margin-top: 20px;
   }
+  .scroll-box {
+    display: none;
+  }
 
   /* main */
+  #main main {
+    height: 50vh !important;
+  }
   #main section {
     height: auto !important;
     padding: 100px 0 !important;
@@ -61,7 +67,15 @@
   }
   #main .section05 .img_box {
     display: inline-block;
+    text-align: center;
   }
+  #main .section05 .img_box p {
+    margin-left: 0;
+  }
+  #main main .wrap .main-tit {
+    bottom: 40px;
+  }
+
   /* news page */
   #news .new_list ul {
     grid-template-columns: repeat(1, 1fr);

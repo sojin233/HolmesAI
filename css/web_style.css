@@ -180,7 +180,7 @@ body {
   padding: 0 40px;
 }
 #main .section05 .img_box img {
-  width: 580px;
+  width: 50%;
 }
 #main .section05 .img_box p {
   font-size: var(--font-size-md);

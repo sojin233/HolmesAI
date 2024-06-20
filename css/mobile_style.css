@@ -205,6 +205,40 @@
   #main .section05 .img_box img {
     width: 100%;
   }
+  #main .section10 .new_wrap ul {
+    display: inline-block;
+  }
+  #main .section10 .new_wrap ul li {
+    width: 100%;
+  }
+  #main .section10 .new_wrap ul li:nth-child(n + 2) {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+  #main .section10 .new_wrap ul li a .text {
+    margin-top: 10px;
+  }
+  #science main {
+    background-position: center;
+  }
+  .list_type_01 {
+    margin-top: 100px;
+  }
+  #science .tit_type_01:nth-child(4),
+  #science .tit_type_01:nth-child(6) {
+    margin-top: 100px;
+  }
+  .table_type_01 table tbody tr th {
+    padding: 5px 10px;
+  }
+  .list_type_01 ul {
+    display: inline-block;
+    width: 100%;
+  }
+  .list_type_01 > ul > li:nth-child(n + 2) {
+    margin-left: 0;
+    margin-top: 30px;
+  }
   .infinite_content .infinite_wrap .infinite_box {
     width: 50%;
   }

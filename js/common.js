@@ -7,10 +7,26 @@ $(document).ready(function () {
   $(".list_box li:first-child").click(function () {
     $(".list_content_box .list01").addClass("show");
     $(".list_content_box .list02").removeClass("show");
+    $(".list_content_box .list03").removeClass("show");
+    $(".list_content_box .list04").removeClass("show");
   });
   $(".list_box li:nth-child(2)").click(function () {
     $(".list_content_box .list02").addClass("show");
     $(".list_content_box .list01").removeClass("show");
+    $(".list_content_box .list03").removeClass("show");
+    $(".list_content_box .list04").removeClass("show");
+  });
+  $(".list_box li:nth-child(3)").click(function () {
+    $(".list_content_box .list03").addClass("show");
+    $(".list_content_box .list01").removeClass("show");
+    $(".list_content_box .list02").removeClass("show");
+    $(".list_content_box .list04").removeClass("show");
+  });
+  $(".list_box li:nth-child(4)").click(function () {
+    $(".list_content_box .list04").addClass("show");
+    $(".list_content_box .list01").removeClass("show");
+    $(".list_content_box .list02").removeClass("show");
+    $(".list_content_box .list03").removeClass("show");
   });
 
   // nav function

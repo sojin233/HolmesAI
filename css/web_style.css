@@ -120,7 +120,7 @@ body {
 }
 #main .section03 .wrap .imgbox_wrap li:nth-child(2n) .sub_text {
   text-align: right;
-  padding: 35px 40px;
+  padding: 50px 40px;
 }
 #main .section03 .wrap .imgbox_wrap li:nth-child(3) .sub_text {
   padding: 50px 40px;
@@ -186,7 +186,6 @@ body {
   font-size: var(--font-size-md);
   line-height: var(--font-height-md);
   margin-left: 50px;
-  text-align: center;
 }
 
 /*  section06 */
@@ -267,6 +266,10 @@ main.subpage ~ section {
   padding-bottom: 200px;
 }
 
+#platform .img_type_02:nth-child(7) {
+  margin-top: 0;
+}
+
 /* human */
 #human main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -274,9 +277,21 @@ main.subpage ~ section {
 }
 
 /* science */
+#science section {
+  padding-top: 0;
+}
 #science main {
   background-position: 0 0;
   background-image: url(../img/main/img_13.jpg);
+}
+#science section .list_content_box .list01 .tit_type_02:nth-child(n + 2) {
+  margin-top: 30px;
+}
+#science section .tit_type_01 {
+  margin-top: 10%;
+}
+#science section .table_type_01 {
+  margin-top: 5%;
 }
 #science .tit_type_01:nth-child(4),
 #science .tit_type_01:nth-child(6) {
@@ -312,6 +327,9 @@ main.subpage ~ section {
 #platform section {
   padding-top: 0;
 }
+#platform section .tit_type_01 {
+  margin-top: 10%;
+}
 
 /* contact */
 #contact main {
@@ -343,45 +361,4 @@ main.subpage ~ section {
 #news main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../img/main/img_16.jpg);
-}
-#news .new_list {
-  display: inline-block;
-  margin-top: 5%;
-}
-#news .new_list ul {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 50px 30px;
-}
-#news .new_list ul li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#news .new_list ul li .img_box {
-  border: 1px solid double;
-  width: 200px;
-  height: 200px;
-}
-#news .new_list ul li .img_box img {
-  width: 200px;
-  height: 200px;
-  background-color: #fff;
-  border-radius: 20px;
-}
-#news .new_list ul li .text_box {
-  width: calc(100% - 250px);
-}
-#news .new_list ul li .text_box p {
-  font-size: var(--font-size-md);
-  line-height: var(--font-height-md);
-}
-#news .new_list ul li .text_box > span {
-  display: inline-block;
-  margin-top: 10px;
-  font-size: var(--font-size-sl);
-  line-height: var(--font-height-sl);
-}
-#news .new_list ul li .text_box > .btn-01 {
-  margin-top: 20px;
 }

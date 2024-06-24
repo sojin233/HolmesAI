@@ -228,6 +228,46 @@
   #science .tit_type_01:nth-child(6) {
     margin-top: 100px;
   }
+  #company .tit_type_01 {
+    margin-top: 100px;
+  }
+  #company .tit_type_01 img {
+    width: 100%;
+  }
+  #news .new_list {
+    margin-top: 50px;
+  }
+  #news .new_list ul li {
+    display: inline-block;
+  }
+  #news .new_list ul li .img_box {
+    width: 100%;
+    height: auto;
+  }
+  #news .new_list ul li .img_box img {
+    width: 100%;
+  }
+  #news .new_list ul li .text_box {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .people_list ul li {
+    display: inline-block;
+  }
+  .people_list ul li .img_box {
+    width: 100%;
+  }
+  .people_list ul li .text_box {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .people_list ul li .text_box h2 {
+    margin-top: 10px;
+  }
+  .people_list ul li .text_box p {
+    margin-top: 30px;
+  }
   .table_type_01 table tbody tr th {
     padding: 5px 10px;
   }

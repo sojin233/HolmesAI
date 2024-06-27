@@ -129,6 +129,9 @@ footer .wrap .sub_link span {
   line-height: var(--font-height-md);
   margin-top: 30px;
 }
+.tit_type_01 img {
+  margin-top: 5%;
+}
 
 .tit_type_02 {
   display: inline-block;

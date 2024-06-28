@@ -154,7 +154,6 @@ footer .wrap .sub_link span {
 
 .tit_type_02 {
   display: inline-block;
-  margin-top: 30px;
 }
 .tit_type_02 h3 {
   font-size: var(--font-size-lg);
@@ -356,7 +355,7 @@ footer .wrap .sub_link span {
   line-height: var(--font-height-sl);
 }
 .img_type_01 .txt_box p:nth-child(n + 2) {
-  margin-top: 20px;
+  margin-top: 8px;
 }
 
 /*  img_type_02  */
@@ -952,7 +951,7 @@ footer .wrap .sub_link span {
   object-fit: cover;
 }
 .people_list ul li .text_box {
-  width: 80%;
+  width: 50%;
   margin-left: 50px;
 }
 .people_list ul li .text_box em {

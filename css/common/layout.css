@@ -116,21 +116,6 @@ footer .wrap .sub_link span {
   padding: 0px 20px;
 }
 
-/* section_white */
-.fp-viewing-1 section {
-  background-color: #fff;
-  color: #000;
-}
-.fp-viewing-1 header .logo-box a img {
-  content: url(../../img/common/logo_01.png);
-}
-.fp-viewing-1 nav > ul {
-  background-color: #1f2937;
-}
-.fp-viewing-1 nav > ul > li > a {
-  color: #fff;
-}
-
 /*======================= tit_type ======================= */
 .tit_type_01 {
   text-align: center;

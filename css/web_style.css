@@ -76,7 +76,7 @@ body {
 
 /* section 01 */
 #main .section01 video {
-  border: 1px solid #000;
+  border: 1px solid #fff;
   width: 100%;
   border-radius: 60px;
 }

@@ -308,6 +308,9 @@ main.subpage ~ section {
 #science .list_content_box .list02 .tit_type_02 {
   margin-top: 10px;
 }
+#science .list_content_box .list02 .tit_type_02:nth-child(3) {
+  margin-top: 30px;
+}
 /* company */
 #company main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),

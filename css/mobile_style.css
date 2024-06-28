@@ -96,10 +96,15 @@
     margin-top: 80px;
   }
 
-  /* common */
-  .img_type_01 .txt_box h3 {
-    text-align: center;
+  #platform .list_content_box .list02 .tit_type_02 {
+    margin-top: 30px;
   }
+
+  #platform .list_content_box .list02 .img_type_02 .txt_box {
+    border: 1px solid red;
+  }
+
+  /* common */
   .table_type_01 table {
     width: 100%;
   }
@@ -141,6 +146,19 @@
   }
   .img_type_01 div:first-child {
     margin-right: 0;
+  }
+
+  .img_type_02 {
+    display: inline-block;
+  }
+  .img_type_02.right .img_box {
+    margin: 0;
+  }
+  .img_type_02 .img_box {
+    text-align: center;
+  }
+  .img_type_02 .txt_box {
+    text-align: left !important;
   }
 
   .btn-menu {

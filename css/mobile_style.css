@@ -21,8 +21,6 @@
     border: 3px solid orange;
     font-family: sans-serif !important;
   }
-  #main main .wrap .main-tit h1 {
-  }
   nav > ul {
     display: none;
   }
@@ -159,6 +157,10 @@
   }
   .img_type_02 .txt_box {
     text-align: left !important;
+  }
+  .img_type_02 .img_box img {
+    width: 100% !important;
+    height: auto;
   }
 
   .btn-menu {

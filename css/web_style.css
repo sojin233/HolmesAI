@@ -50,7 +50,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  animation: main_zoom 5s infinite alternate;
   position: relative;
 }
 #main main .wrap .main-tit {
@@ -65,15 +64,6 @@ body {
   font-size: var(--font-size-h2);
   line-height: var(--font-height-h2);
   margin-top: 30px;
-}
-
-@keyframes main_zoom {
-  0% {
-    background-size: 110% 110%;
-  }
-  100% {
-    background-size: 100% 100%;
-  }
 }
 
 /* ======================= main page ========================= */

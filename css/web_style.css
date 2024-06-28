@@ -329,6 +329,12 @@ main.subpage ~ section {
 #platform section .tit_type_01 {
   margin-top: 10%;
 }
+#platform section .list_content_box .list01 .grid_table_01 {
+  margin-bottom: 4%;
+}
+#platform section .list_content_box .list01 .tit_type_02:nth-child(7) {
+  margin-top: 10%;
+}
 
 /* contact */
 #contact main {

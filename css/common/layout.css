@@ -160,7 +160,6 @@ footer .wrap .sub_link span {
 .type_01 {
   width: 80%;
   height: 260px;
-  border: 1px solid paleturquoise;
   background-color: var(--color-light);
   color: var(--color-primary);
   border-radius: 20px;

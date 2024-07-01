@@ -855,14 +855,11 @@ footer .wrap .content_box .text p {
   height: 50%;
   background-repeat: no-repeat;
   vertical-align: top;
-  background-size: contain;
-  padding: 30px 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-position: 5px 8px;
-  background-size: 40px;
+  background-size: contain;
 }
 .infinite_content .icon_wrap div span {
   width: 100%;

@@ -82,6 +82,9 @@
     margin-left: 0;
     margin-top: 20px;
   }
+  #main .section10 .img_wrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
   #main .section11 .new_wrap ul li a .img img {
     height: 200px;
   }
@@ -320,6 +323,16 @@
   }
   #main .section09 {
     padding-bottom: 0 !important;
+  }
+  #main .section10 .img_wrap {
+    gap: 20px;
+  }
+  #main .section10 .img_wrap li {
+    text-align: center;
+  }
+  #main .section10 .img_wrap img {
+    width: 130px;
+    height: 30px;
   }
   #main .section11 .new_wrap ul {
     display: inline-block;

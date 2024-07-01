@@ -383,6 +383,9 @@
     text-align: left;
     margin-right: 0;
   }
+  .people_list ul li:nth-child(2n) .img_box::after {
+    left: 0;
+  }
   .people_list ul li .img_box {
     width: 50%;
   }

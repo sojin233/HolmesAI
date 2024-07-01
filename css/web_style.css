@@ -347,7 +347,6 @@ main.subpage ~ section {
   width: 100%;
   margin-top: 5%;
 }
-
 #company .list_content_box .list01 .img_type_02 .txt_box {
   margin-left: 30px;
   margin-top: 0;
@@ -355,7 +354,9 @@ main.subpage ~ section {
 #company .list_content_box .list01 .img_type_02 .img_box img {
   height: 450px;
 }
-#company .list_content_box .list01 .img_type_01 .tit_type_02 
+#company .list_content_box .list01 .img_type_01 .tit_type_02 {
+  margin-top: 30px;
+}
 
 /* platform */
 #platform main {

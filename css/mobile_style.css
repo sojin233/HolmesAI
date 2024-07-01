@@ -111,6 +111,11 @@
     margin-top: 80px;
   }
 
+  /* company page */
+  #company .list_content_box .list01 .img_type_02 .txt_box {
+    margin-left: 0;
+    margin-top: 30px;
+  }
   /* platform page */
   #platform .list_content_box .list02 .tit_type_02 {
     margin-top: 30px;
@@ -367,6 +372,9 @@
   #company .tit_type_01 img {
     width: 100%;
   }
+  #company .list_content_box .list01 .img_type_01 .tit_type_02 {
+    margin-top: 20px;
+  }
 
   /* news */
   #news .new_list {
@@ -401,7 +409,7 @@
     margin-right: 0;
   }
   .people_list ul li:nth-child(2n) .img_box::after {
-    left: 0;
+    left: auto;
   }
   .people_list ul li .img_box {
     width: 50%;

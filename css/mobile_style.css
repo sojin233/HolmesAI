@@ -379,8 +379,12 @@
   .people_list ul li {
     display: inline-block;
   }
+  .people_list ul li:nth-child(2n) .text_box {
+    text-align: left;
+    margin-right: 0;
+  }
   .people_list ul li .img_box {
-    width: 100%;
+    width: 50%;
   }
   .people_list ul li .text_box {
     width: 100%;

@@ -180,7 +180,7 @@
     width: 30%;
   }
   .people_list ul li .text_box {
-    width: 50%;
+    width: 100%;
     margin-left: 50px;
   }
   .img_type_01 {
@@ -234,6 +234,14 @@
   .infinite_content .icon_wrap .treatment,
   .infinite_content .icon_wrap .diagnosis {
     right: 16%;
+  }
+  .list_type_01 ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .list_type_01 > ul > li:nth-child(n + 2) {
+    margin: 0;
   }
 }
 
@@ -360,6 +368,11 @@
   #news .new_list ul li .text_box {
     width: 100%;
     margin-top: 20px;
+  }
+
+  /* contact */
+  #contact .map_list ul li iframe {
+    height: 200px;
   }
 
   /* common */

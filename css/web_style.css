@@ -346,8 +346,17 @@ main.subpage ~ section {
 #platform section .list_content_box .list01 .grid_table_01 {
   margin-bottom: 4%;
 }
+#platform section .list_content_box .list01 .tit_type_02:nth-child(3),
+#platform section .list_content_box .list01 .tit_type_02:nth-child(4),
+#platform section .list_content_box .list01 .tit_type_02:nth-child(5) {
+  display: list-item;
+  list-style-type: disc;
+}
 #platform section .list_content_box .list01 .tit_type_02:nth-child(7) {
   margin-top: 10%;
+}
+#platform section .list_content_box .list02 .tit_type_02 {
+  margin-top: 40px;
 }
 #platform .list_content_box .list01 .img_type_02:nth-child(6) .img_box img {
   height: 300px;

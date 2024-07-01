@@ -216,6 +216,9 @@ footer .wrap .content_box .text p {
 .type_01 .sub p {
   font-size: var(--font-size-sl);
   line-height: 24px;
+  display: list-item;
+  list-style-type: disc;
+  margin-left: 30px;
 }
 /* type_02 */
 .type_02 {
@@ -262,6 +265,11 @@ footer .wrap .content_box .text p {
 .type_02 .sub span {
   font-size: var(--font-size-sl);
   line-height: var(--font-size-md);
+  display: list-item;
+  list-style-type: disc;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 /* type_03 */
 .type_03 {
@@ -349,7 +357,7 @@ footer .wrap .content_box .text p {
 
 /*  img_type_02  */
 .img_type_02 {
-  margin-top: 10%;
+  margin-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;

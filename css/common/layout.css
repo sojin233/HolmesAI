@@ -115,6 +115,16 @@ footer .wrap .sub_link span {
   display: inline-block;
   padding: 0px 20px;
 }
+footer .wrap .content_box .sub_link a {
+  font-size: var(--font-size-sl);
+  line-height: var(--font-height-sl);
+  color: var(--color-primary);
+}
+footer .wrap .content_box .text p {
+  font-size: var(--font-size-sl);
+  line-height: var(--font-height-sl);
+  color: var(--color-primary);
+}
 
 /*======================= tit_type ======================= */
 .tit_type_01 {
@@ -293,7 +303,6 @@ footer .wrap .sub_link span {
   font-weight: 500;
 }
 .type_03 .box:nth-child(n + 2) {
-  border: 1px solid palegoldenrod;
   margin-top: 30px;
 }
 
@@ -384,7 +393,7 @@ footer .wrap .sub_link span {
 .list_box li {
   width: 50%;
   text-align: center;
-  padding: 20px;
+  padding: 20px 10px;
   cursor: pointer;
   border-bottom: 1px solid #a1a1a1;
 }
@@ -497,7 +506,8 @@ footer .wrap .sub_link span {
   height: 200px;
   background-color: #fff;
   border-radius: 20px;
-  object-fit: fill;
+  object-fit: cover;
+  object-position: top;
 }
 .new_list ul li .text_box {
   width: calc(100% - 250px);

@@ -17,12 +17,18 @@
 
 /* -- Tablet -- */
 @media screen and (max-width: 1100px) {
+  :root {
+    --font-size-h1: 50px;
+
+    --font-height-h1: 60px;
+  }
+
   html {
     overflow: auto !important;
   }
   body {
     border: 3px solid orange;
-    overflow: auto !important;
+    overflow-x: hidden !important;
     font-family: sans-serif !important;
   }
   nav > ul {
@@ -52,7 +58,7 @@
 
   /* main */
   #main main {
-    height: 50vh !important;
+    height: 80vh !important;
   }
   #main section {
     height: auto !important;
@@ -107,6 +113,19 @@
   .new_list ul {
     grid-template-columns: repeat(1, 1fr);
   }
+  .new_list ul li {
+    display: inline-block;
+  }
+  .new_list ul li .img_box {
+    width: 100%;
+  }
+  .new_list ul li .img_box img {
+    width: 100%;
+  }
+  .new_list ul li .text_box {
+    width: 100%;
+    margin-top: 10px;
+  }
 
   /* common */
   .table_type_01 table {
@@ -118,6 +137,7 @@
     width: 100%;
   }
   .type_01 {
+    width: 100%;
     height: auto;
   }
   .grid_table_01 .type_01:nth-child(2) {
@@ -346,6 +366,7 @@
   .list_type_01 ul {
     display: inline-block;
     width: 100%;
+    padding: 30px;
   }
   .list_type_01 > ul > li:nth-child(n + 2) {
     margin-left: 0;
@@ -389,6 +410,9 @@
   .data_list li:nth-child(n + 2) {
     margin-left: 0px;
     margin-top: 20px;
+  }
+  .video_box iframe {
+    height: 400px;
   }
 }
 

@@ -508,7 +508,7 @@ footer .wrap .content_box .text p {
   background-color: #fff;
   border-radius: 20px;
   object-fit: cover;
-  object-position: top;
+  object-position: left;
 }
 .new_list ul li .text_box {
   width: calc(100% - 250px);
@@ -565,7 +565,7 @@ footer .wrap .content_box .text p {
 .data_list {
   display: flex;
   width: 100%;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .data_list li {
   width: 25%;

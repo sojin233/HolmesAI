@@ -186,6 +186,7 @@
   }
   .type_03::after {
     left: 50%;
+    z-index: -1;
   }
 
   .people_list ul li .img_box {

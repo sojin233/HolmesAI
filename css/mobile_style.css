@@ -19,7 +19,6 @@
 @media screen and (max-width: 1100px) {
   :root {
     --font-size-h1: 50px;
-
     --font-height-h1: 60px;
   }
 
@@ -81,6 +80,10 @@
   }
   #main .section05 .img_box p {
     margin-left: 0;
+    margin-top: 20px;
+  }
+  #main .section10 .new_wrap ul li a .img img {
+    height: 200px;
   }
   #main main .wrap .main-tit {
     bottom: 40px;
@@ -90,6 +93,7 @@
   #news .new_list ul {
     grid-template-columns: repeat(1, 1fr);
   }
+
   /* conatct page */
   #contact .map_list ul {
     display: inline-block;
@@ -104,12 +108,10 @@
     margin-top: 80px;
   }
 
+  /* platform page */
   #platform .list_content_box .list02 .tit_type_02 {
     margin-top: 30px;
   }
-  #platform .list_content_box .list02 .img_type_02 .txt_box {
-  }
-
   .new_list ul {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -260,7 +262,6 @@
     --font-height-sl: 18px;
     --font-heightize-sm: 14px;
   }
-  /* common */
   .logo-box a img {
     width: 80px;
   }
@@ -284,6 +285,8 @@
   .ico-nav i:nth-child(4) {
     top: 20px;
   }
+
+  /* main */
   #main main {
     height: 70vh !important;
   }
@@ -296,6 +299,12 @@
   }
   #main .section05 .img_box img {
     width: 100%;
+  }
+  #main .section08 {
+    padding: 0 !important;
+  }
+  #main .section09 {
+    padding-bottom: 0 !important;
   }
   #main .section10 .new_wrap ul {
     display: inline-block;
@@ -310,22 +319,28 @@
   #main .section10 .new_wrap ul li a .text {
     margin-top: 10px;
   }
+  #main .section10 .new_wrap ul li a .img img {
+    height: 180px;
+  }
+
+  /* science */
   #science main {
     background-position: center;
-  }
-  .list_type_01 {
-    margin-top: 100px;
   }
   #science .tit_type_01:nth-child(4),
   #science .tit_type_01:nth-child(6) {
     margin-top: 100px;
   }
+
+  /* company */
   #company .tit_type_01 {
     margin-top: 100px;
   }
   #company .tit_type_01 img {
     width: 100%;
   }
+
+  /* news */
   #news .new_list {
     margin-top: 50px;
   }
@@ -343,6 +358,8 @@
     width: 100%;
     margin-top: 20px;
   }
+
+  /* common */
   .people_list ul li {
     display: inline-block;
   }
@@ -360,8 +377,13 @@
   .people_list ul li .text_box p {
     margin-top: 30px;
   }
+
   .table_type_01 table tbody tr th {
     padding: 5px 10px;
+  }
+
+  .list_type_01 {
+    margin-top: 100px;
   }
   .list_type_01 ul {
     display: inline-block;
@@ -372,6 +394,7 @@
     margin-left: 0;
     margin-top: 30px;
   }
+
   .infinite_content .infinite_wrap .infinite_box {
     width: 50%;
   }
@@ -388,6 +411,7 @@
   .infinite_content .icon_wrap > div {
     height: 26%;
   }
+
   .img_type_01 {
     margin-top: 100px;
   }
@@ -409,7 +433,7 @@
   }
   .data_list li:nth-child(n + 2) {
     margin-left: 0px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .video_box iframe {
     height: 400px;
@@ -420,7 +444,7 @@
 /* 모바일 세로*/
 @media screen and (max-width: 360px) {
   body {
-    border: 3px solid greenyellow;
+    border: 3px solid fuchsia;
   }
 
   :root {

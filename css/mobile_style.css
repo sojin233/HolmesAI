@@ -290,6 +290,9 @@
   #main main {
     height: 70vh !important;
   }
+  #main .section01 video {
+    height: 400px;
+  }
   main.subpage ~ section {
     padding-top: 100px;
     padding-bottom: 100px;

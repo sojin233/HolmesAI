@@ -337,15 +337,19 @@ main.subpage ~ section {
 #company .list_content_box .list01 .img_type_01 .img_box:last-child img {
   width: 206px;
   object-fit: none;
-  height: 200px;
+  height: 150px;
+}
+#company .list_content_box .list01 .img_type_02:nth-child(7) {
+  margin-top: 20px;
+  height: auto;
+}
+#company .list_content_box .list01 .img_type_02:nth-child(7) img {
+  height: auto;
 }
 
 #company .list_content_box .list01 .img_type_02 .txt_box {
   margin-left: 30px;
   margin-top: 0;
-}
-#company .list_content_box .list01 .img_type_02 .img_box img {
-  height: 450px;
 }
 
 /* platform */

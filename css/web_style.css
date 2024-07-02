@@ -277,7 +277,7 @@ main.subpage ~ section {
 #human section .img_type_02 {
   margin-top: 10%;
 }
-#human section .img_type_02 .txt_box {
+#human section .img_type_02:nth-child(6) .txt_box {
   margin-left: 30px;
 }
 

@@ -41,19 +41,6 @@ body {
   width: 100%;
 }
 
-.fp-viewing-1 header .logo-box a img,
-.fp-viewing-9 header .logo-box a img {
-  content: url(../img/common/logo_01.png);
-}
-.fp-viewing-1 nav > ul,
-.fp-viewing-9 nav > ul {
-  background-color: #1f2937;
-}
-.fp-viewing-1 nav > ul > li > a,
-.fp-viewing-9 nav > ul > li > a {
-  color: #fff;
-}
-
 /* ======================= main ======================= */
 #main main {
   width: 100vw;
@@ -88,12 +75,8 @@ body {
 }
 
 /* section 01 */
-#main .section01 {
-  background-color: #fff;
-}
-
 #main .section01 video {
-  border: 1px solid #000;
+  border: 1px solid #fff;
   width: 100%;
   border-radius: 60px;
 }
@@ -203,12 +186,6 @@ body {
   max-width: 980px;
 }
 /* section 10 */
-#main .section10 {
-  background-color: #fff;
-}
-#main .section10 .tit_type_01 h2 {
-  color: #1f2937;
-}
 #main .section10 .img_wrap {
   margin-top: 10%;
   display: grid;
@@ -222,6 +199,7 @@ body {
   width: 230px;
   height: 80px;
   object-fit: contain;
+  filter: grayscale(100%);
 }
 
 /* section 11 */
@@ -295,6 +273,12 @@ main.subpage ~ section {
 #human main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../img/main/img_09.jpg);
+}
+#human section .img_type_02 {
+  margin-top: 10%;
+}
+#human section .img_type_02 .txt_box {
+  margin-left: 30px;
 }
 
 /* science */

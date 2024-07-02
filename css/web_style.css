@@ -375,6 +375,9 @@ main.subpage ~ section {
 #platform section .list_content_box .list01 .tit_type_02:nth-child(7) {
   margin-top: 10%;
 }
+#platform section .list_content_box .list02 .img_type_02:nth-child(5) {
+  margin-top: 0;
+}
 #platform section .list_content_box .list02 .tit_type_02 {
   margin-top: 40px;
 }

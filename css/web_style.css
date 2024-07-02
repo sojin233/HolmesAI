@@ -331,15 +331,21 @@ main.subpage ~ section {
   width: 100%;
   margin-top: 5%;
 }
+#company .list_content_box .list01 .img_type_01 .tit_type_02 {
+  margin-top: 30px;
+}
+#company .list_content_box .list01 .img_type_01 .img_box:last-child img {
+  width: 206px;
+  object-fit: none;
+  height: 200px;
+}
+
 #company .list_content_box .list01 .img_type_02 .txt_box {
   margin-left: 30px;
   margin-top: 0;
 }
 #company .list_content_box .list01 .img_type_02 .img_box img {
   height: 450px;
-}
-#company .list_content_box .list01 .img_type_01 .tit_type_02 {
-  margin-top: 30px;
 }
 
 /* platform */

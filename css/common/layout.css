@@ -394,6 +394,13 @@ footer .wrap .content_box .text p {
   margin-left: 30px;
 }
 
+.gif_box {
+  margin-top: 5%;
+}
+.gif_box img {
+  width: 100%;
+}
+
 /* list_box */
 .list_box {
   display: flex;

@@ -346,11 +346,6 @@ main.subpage ~ section {
 #company .list_content_box .list01 .img_type_01 .tit_type_02 {
   margin-top: 30px;
 }
-#company .list_content_box .list01 .img_type_01 .img_box:last-child img {
-  width: 206px;
-  object-fit: none;
-  height: 150px;
-}
 #company .list_content_box .list01 .img_type_02:nth-child(7) {
   margin-top: 20px;
   height: auto;

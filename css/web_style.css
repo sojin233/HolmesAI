@@ -315,6 +315,12 @@ main.subpage ~ section {
 #science .list_content_box .list02 .tit_type_02:nth-child(3) {
   margin-top: 30px;
 }
+#science .list_content_box .list02 .img_type_01 .txt_box {
+  margin-top: 0px;
+}
+#science .list_content_box .list02 .tit_list {
+  margin-top: 5%;
+}
 
 /* company */
 #company main {

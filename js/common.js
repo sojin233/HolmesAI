@@ -19,34 +19,6 @@ $(document).ready(function () {
     $(this).siblings().removeClass("open");
   });
 
-  // 스크롤 이벤트 처리
-  const $counters = $(".scroll_on");
-  const exposurePercentage = 40; // 노출 비율
-  const loop = true; // 반복 여부
-
-  $(window)
-    .on("scroll", function () {
-      $counters.each(function () {
-        const $el = $(this);
-        const rect = $el[0].getBoundingClientRect();
-        const winHeight = window.innerHeight;
-        const contentHeight = rect.bottom - rect.top;
-
-        if (
-          rect.top <= winHeight - (contentHeight * exposurePercentage) / 100 &&
-          rect.bottom >= (contentHeight * exposurePercentage) / 100
-        ) {
-          $el.addClass("active");
-        } else if (
-          loop &&
-          (rect.bottom <= 0 || rect.top >= window.innerHeight)
-        ) {
-          $el.removeClass("active");
-        }
-      });
-    })
-    .scroll();
-
   // 클릭 이벤트 처리
   $(".list_box li").click(function () {
     $(this).addClass("active");
@@ -56,4 +28,48 @@ $(document).ready(function () {
     $(".list_content_box > div").removeClass("show");
     $(".list_content_box .list0" + index).addClass("show");
   });
+});
+
+$(document).ready(function () {
+  // Debounce 함수: 이벤트가 연속적으로 호출될 때, 마지막 호출만 처리하도록 함
+  function debounce(func, wait) {
+    let timeout;
+    return function () {
+      clearTimeout(timeout);
+      timeout = setTimeout(func, wait);
+    };
+  }
+
+  // 요소의 가시성을 체크하고, 필요에 따라 'visible' 클래스를 추가하거나 제거하는 함수
+  function checkVisibility() {
+    $(".hidden-element").each(function () {
+      const $element = $(this);
+      const elementTop = $element.offset().top;
+      const elementBottom = elementTop + $element.outerHeight();
+      const viewportTop = $(window).scrollTop();
+      const viewportBottom = viewportTop + $(window).height();
+
+      // 요소가 뷰포트에 보이는 경우
+      if (elementTop < viewportBottom && elementBottom > viewportTop) {
+        if ($(window).width() > 600) {
+          // 웹에서만 'visible' 클래스를 추가
+          $element.addClass("visible");
+        }
+      } else {
+        if ($(window).width() > 600) {
+          // 웹에서만 'visible' 클래스를 제거
+          $element.removeClass("visible");
+        }
+      }
+    });
+  }
+
+  // 디바운스 처리된 'checkVisibility' 함수 정의
+  const debouncedCheckVisibility = debounce(checkVisibility, 100);
+
+  // 스크롤과 리사이즈 이벤트에 'checkVisibility' 함수를 연결
+  $(window).on("scroll resize", debouncedCheckVisibility);
+
+  // 초기 가시성 체크
+  checkVisibility();
 });

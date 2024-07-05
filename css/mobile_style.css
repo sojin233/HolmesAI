@@ -515,3 +515,11 @@
     margin-top: 50px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .hidden-element {
+    opacity: 1; /* 모바일에서는 애니메이션 효과를 제거합니다 */
+    transform: translateY(0); /* 모바일에서는 애니메이션 효과를 제거합니다 */
+    transition: none; /* 모바일에서는 애니메이션 효과를 제거합니다 */
+  }
+}

@@ -407,12 +407,12 @@ footer .wrap .content_box .text p {
 .list_content li .img_type_02 .img_box img {
   object-fit: contain;
 }
-.list_content li:nth-child(2n) .img_type_02 {
+/* .list_content li:nth-child(2n) .img_type_02 {
   flex-direction: row-reverse;
 }
 .list_content li:nth-child(2n) .img_type_02 .txt_box {
   text-align: right;
-}
+} */
 
 /* list_box */
 .list_box {

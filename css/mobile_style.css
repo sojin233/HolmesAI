@@ -396,6 +396,10 @@
     margin-top: 20px;
   }
 
+  #human section .img_type_02:nth-child(6) .txt_box {
+    margin-left: 0px;
+  }
+
   /* contact */
   #contact .map_list ul li iframe {
     height: 200px;
